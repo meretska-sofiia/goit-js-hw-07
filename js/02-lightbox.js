@@ -24,5 +24,4 @@ const makeGallery = (galleryItems) => {
 
 makeGallery(galleryItems);
 
-const lightbox = new SimpleLightbox('.gallery a');
-
+const lightbox = new SimpleLightbox('.gallery a', {captionDelay: 250});
